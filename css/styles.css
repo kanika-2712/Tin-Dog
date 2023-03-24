@@ -1,0 +1,147 @@
+body{
+    font-family: "Montserrat";
+}
+#title{
+    background-color: #ff4c68;
+   }
+h1{
+font-family: 'Montserrat';
+font-size: 3rem;
+line-height: 1.5;
+font-weight: 800;
+color: white;
+}
+.container-fluid{
+    padding:3% 15% 7%;
+
+}
+.navbar{
+    padding:0 0 4.5rem;
+}
+.nav-item{
+    padding:0 18px;
+}
+.navbar-brand{
+    font-family:'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+.nav-link{
+    font-size:1.5rem;
+    font-weight: 300;
+}
+.download-button{
+    margin:5% 3% 5% 0;
+}
+.title-image{
+    width:60%;
+    transform: rotate(25deg);
+    position:absolute;
+    right:25%;
+}
+#features{ 
+    padding:10% 15%;
+    background-color: rgb(255, 255, 255);
+   position: relative;
+   z-index:1;
+    
+   
+}
+.features-img{
+    color:#ef8172;  
+    margin-bottom:1rem;
+}
+
+.goals{
+font-family: 'Montserrat';
+font-weight:700;
+font-size:1.5rem;
+
+}
+
+.features-img:hover{
+    color: #ff4c68;
+}
+
+.feature-box{
+    text-align: center;
+}
+h2{
+    font-family:'Montserrat';
+    font-weight:800;
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+#testimonials{
+   
+    text-align: center;
+    background-color: #ef8172;
+    color:white;
+    
+}
+.testimonial-image{
+    width: 15%;
+    border-radius: 100%;
+    margin:20px;
+}
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+
+}
+.press-logo{
+    width: 15%;
+    margin:20px 20px 15px;
+}
+.carousel-item{
+    padding:7% 15%;
+}
+h3{
+    font-family:'Montserrat';
+    font-weight:800;
+    font-size: 1.5rem;
+
+}
+#pricing{
+    padding:90px;
+    text-align: center;
+}
+.pricing-column{
+    padding:3% 2%;
+}
+#cta{
+    text-align: center;
+    background-color: #ff4c68;
+    font-family: 'Montserrat';
+    font-weight: 900;
+    padding:7% 15%;
+    color: white;
+}
+.caption{
+    font-size:3rem;
+    line-height:1.5;
+}
+#footer{
+    text-align: center;
+    padding:7% 15%;
+
+}
+.footicon{
+    margin:10px;
+    margin-bottom:10px;
+}
+p{
+    font-family: "Ubuntu";
+    color:#8f8f8f;
+}
+@media (max-width:1028px){
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+    #title{
+        text-align: center;
+    }
+
+}
